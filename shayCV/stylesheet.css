@@ -24,7 +24,7 @@ body {
 
 .profile {
 	flex: 1;
-	max-width: 35%;
+	max-width: 25%;
 	background-color: #eee;
 	border-left: 40px solid #2e93a5;
 	display: flex;
@@ -41,6 +41,7 @@ body {
 	border: 10px solid #ccc;
 	overflow: hidden;
 	position: relative;
+	box-shadow: 4px 4px 14px 0px;
 }
 .profile .profile-image:after {
 	content: ' ';
@@ -93,10 +94,11 @@ body {
 
 .skills {
 	flex: 2;
+	max-width: 35%;
 	background-color: #fff;
 	border-right: 10px solid #2e93a5;
 	padding: 30px;
-
+	width: 400px;
 }
 
 .skillsIcon {
@@ -159,6 +161,7 @@ body {
 	background-color: #eee;
 	margin: 4px 0;
 	height: 15px;
+	box-shadow: inset 0px 0px 6px 0px;
 }
 
 .skill .progress .percentage {
